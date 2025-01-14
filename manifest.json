@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "PIPCloser",
+    "version": "1.0",
+    "description": "단축키로 PIP 화면을 닫아줍니다.",
+    
+    "host_permissions":[ "<all_urls>" ],
+    "permissions": [
+      "scripting",
+      "tabs"
+    ],
+
+    "commands": {
+        "PIPCloser": {
+            "suggested_key": { "default": "Alt+Shift+W" },
+          "description": "PIPCloser"
+        }
+    },
+
+    "background": {
+      "service_worker": "background.js"
+    },
+
+    "content_scripts": [
+      { "matches": ["<all_urls>"], "js": ["content.js"] }
+    ]
+
+  }
