@@ -8,7 +8,7 @@
 
 <br>
 
-### 2. POPCloser 폴더를 열어줍니다.
+### 2. PIPCloser 폴더를 열어줍니다.
 ![image](https://github.com/user-attachments/assets/4b3c4852-88d0-47cb-9969-99ec50d759b2)
 
 <br>
