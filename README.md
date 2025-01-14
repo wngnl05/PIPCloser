@@ -1,5 +1,6 @@
-## PIP모드를 종료하는 방식이 불편하여 chromeExtension을 이용하여 단축키로 PIP 모드를 종료할 수 있도록 만들어보았습니다.
-## [바로가기](https://store.whale.naver.com/detail/agnaijoehcbcbgakbikgapkedimobedk)
+### PIP모드를 종료하는 방식이 불편하여 chromeExtension을 이용하여 단축키로 PIP 모드를 종료할 수 있도록 만들어보았습니다.
+### [바로가기](https://store.whale.naver.com/detail/agnaijoehcbcbgakbikgapkedimobedk)
+<br>
 
 ### 1. "압축해제 된 확장앱 설치"를 누릅니다.
 ![image](https://github.com/user-attachments/assets/9b99865b-75e0-443a-84fc-5fe6b5aff532)
