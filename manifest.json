@@ -1,28 +1,35 @@
 {
-    "manifest_version": 3,
-    "name": "PIPCloser",
-    "version": "1.0",
-    "description": "단축키로 PIP 화면을 닫아줍니다.",
-    
-    "host_permissions":[ "<all_urls>" ],
-    "permissions": [
-      "scripting",
-      "tabs"
-    ],
+  "manifest_version": 3,
+  "name": "PIPCloser",
+  "version": "1.0",
+  "description": "단축키로 PIP 화면을 닫아줍니다.",
+  
+  "icons": {
+    "16": "PIPCloser.png",
+    "32": "PIPCloser.png",
+    "48": "PIPCloser.png",
+    "128": "PIPCloser.png"
+  },
 
-    "commands": {
-        "PIPCloser": {
-            "suggested_key": { "default": "Alt+Shift+W" },
-          "description": "PIPCloser"
-        }
-    },
+  "host_permissions":[ "<all_urls>" ],
+  "permissions": [
+    "scripting",
+    "tabs"
+  ],
 
-    "background": {
-      "service_worker": "background.js"
-    },
+  "commands": {
+      "PIPCloser": {
+          "suggested_key": { "default": "Alt+Shift+W" },
+        "description": "PIPCloser"
+      }
+  },
 
-    "content_scripts": [
-      { "matches": ["<all_urls>"], "js": ["content.js"] }
-    ]
+  "background": {
+    "service_worker": "background.js"
+  },
 
-  }
+  "content_scripts": [
+    { "matches": ["<all_urls>"], "js": ["content.js"] }
+  ]
+
+}
